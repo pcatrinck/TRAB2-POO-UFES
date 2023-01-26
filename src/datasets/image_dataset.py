@@ -2,6 +2,8 @@
 from typing import Tuple, Any, Dict
 from .dataset_interface import DatasetInterface
 
+import cv2
+
 
 class ImageDataset(DatasetInterface):
     def __init__(self, path: str) -> None:
